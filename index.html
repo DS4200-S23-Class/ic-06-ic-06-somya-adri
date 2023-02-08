@@ -4,13 +4,30 @@
 <head>
     <meta charset=utf-8/>
     <title>ic-06</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
 </head>
 
 
 <body>
     <h1>Javascript Part 2</h1>
+    <div class="frame">
+        <svg id="frame" width="1000" height="500" >
+            <circle id="circle" onmouseover="mouseOver()" onmouseout="mouseOut()" cx="960" cy="40" r="40" />
+            <rect id="line" y="480" width="1000" height="20"/>
+        </svg>
+    </div>
+    <button id="lineChangeButton" onclick="clickHandler()" class="button">change the line color</button>
 
+    <h2 class="centered">Acknowledgements</h2>
+    <div>
+      <ul>
+        <li>https://www.w3schools.com/howto/howto_js_toggle_class.asp</li>
+        <li>https://www.w3schools.com/js/js_htmldom_eventlistener.asp</li>
+      </ul>
+    </div>
+    
 
+    <script src="script.js"></script>
 </body>
 
 </html>

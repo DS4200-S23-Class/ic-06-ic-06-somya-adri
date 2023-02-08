@@ -1,0 +1,39 @@
+body {
+	font-family: Arial;
+}
+
+circle {
+  height: 250px;
+  width: 250px;
+  fill: palevioletred;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+#frame {
+	border-style: solid;
+	border-color: darkred;
+}
+
+rect {
+  fill: darkblue;
+}
+
+#lineChangeButton {
+  background-color: hotpink;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.centered {
+	text-align: center;
+}
